@@ -1,8 +1,8 @@
 # Core Protocols Discord Bot
-Structured use of the [Core Protocols](https://mccarthyshow.com/the-core/) developed by [Jim](https://twitter.com/mccarthyjim1) and [Michele](https://twitter.com/michmccarthy) McCarthy in a Discord server.
+Structured use of the [Core Protocols](https://mccarthyshow.com/the-core/) in Discord.
 
 ## Why
-The Core is a set of best practices culled from over 25 years of research from Jim and Michele McCarthy and the teams they have worked with. It includes commitments that are an agreement from the team to create a high functioning environment and to accept the responsibility to maintain it. A set of Core Protocols help the team better understand and support the Core Commitments.
+The Core is a set of best practices culled from over 25 years of research from [Jim](https://twitter.com/mccarthyjim1) and [Michele](https://twitter.com/michmccarthy) McCarthy and the teams they have worked with. It includes commitments that are an agreement from the team to create a high functioning environment and to accept the responsibility to maintain it. A set of Core Protocols help the team better understand and support the Core Commitments.
 
 Communication and collaboration are improved when team members have a shared understanding of terms and responsibilities; people know what's expected of them. For example, using The Core, everyone understands that when someone **Checks In** that they are agreeing to a [set of commitments](https://greatness.rocks/the-core/) for high-functioning team work.
 
