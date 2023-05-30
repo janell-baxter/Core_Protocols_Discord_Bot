@@ -4,12 +4,11 @@ Structured use of the [Core Protocols](https://mccarthyshow.com/the-core/) devel
 ## Why
 The Core is a set of best practices culled from over 25 years of research from Jim and Michele McCarthy and the teams they have worked with. It includes commitments that are an agreement from the team to create a high functioning environment and to accept the responsibility to maintain it. A set of Core Protocols help the team better understand and support the Core Commitments.
 
-Communication and collaboration are improved when team members have a shared understanding of terms and responsibilities; people know what's expected of them. For example, using The Core, everyone understands that when someone Checks In that they are agreeing to a [set of commitments](https://greatness.rocks/the-core/) for high-functioning team work.
+Communication and collaboration are improved when team members have a shared understanding of terms and responsibilities; people know what's expected of them. For example, using The Core, everyone understands that when someone **Checks In** that they are agreeing to a [set of commitments](https://greatness.rocks/the-core/) for high-functioning team work.
 
-To use the Core Protocols, first read about them on the McCarthy Show site: [Core Protocols](https://mccarthyshow.com/the-core/).
+To use the Core Protocols, read the book [Software For Your Head](https://liveingreatness.com/software-for-your-head-book/). It's online, free, and covers the protocols in depth.
 
 Additionally, you may want to:
-* Read the book [Software For Your Head](https://liveingreatness.com/software-for-your-head-book/). It's online, free, and covers the protocols in depth. 
 * [Attend a Bootcamp](https://mccarthyshow.com/boot-camp/)
 * [Listen to the Podcasts](https://mccarthyshow.com/category/podcasts/page/14/)
 
