@@ -16,6 +16,9 @@ Additionally, you may want to:
 
 # Project 
 
+## Discord Bot Creation
+You can create your own bot by following [Discord's Getting Started guide](https://discord.com/developers/docs/getting-started). If you don't have a server, you can use [Glitch](glitch.com) for development and short-term testing. 
+
 ## Project structure
 This is an open source project built using the [example](https://github.com/discord/discord-example-app) provided by [Shay DeWael](https://github.com/shaydewael) as a starting point.
 
@@ -84,5 +87,8 @@ Example:
   }
 });
 ```
-## License
-The Core Protocols are distributed under a GNU-PL license. See [Core Protocols](https://mccarthyshow.com/the-core/).
+## Licenses
+This project is open source. See [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) for details.
+* The Core Protocols are distributed under a GNU-PL license. See [Core Protocols](https://mccarthyshow.com/the-core/).
+* The [example](https://github.com/discord/discord-example-app) provided by [Shay DeWael](https://github.com/shaydewael) used as a starting point for this project is distributed under the [MIT license](https://choosealicense.com/licenses/mit/).
+
