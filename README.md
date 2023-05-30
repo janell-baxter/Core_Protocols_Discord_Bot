@@ -26,7 +26,15 @@ Below is a basic overview of the project structure:
 ├── README.md
 └── .gitignore
 ```
-##commands.js
+## Core Protocols Code
+The Core Protocols functionality can be updated in the utils.js and commands.js files.
+
+### utils.js
+export function getCheckinEmoji() {
+  const emojiList = "😡 😭 😄 😨";
+  return emojiList;
+}
+### commands.js
 //*********************** CUSTOM CODE *************************//
 
 // -----------------------------------
