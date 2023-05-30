@@ -31,14 +31,16 @@ The Core Protocols functionality can be updated in the app.js, commands.js and u
 
 ### Check-In Emoji
 The emoji for Check-In can be updated in utils.js.
-
+```
 export function getCheckinEmoji() {
   const emojiList = "😡 😭 😄 😨";
   return emojiList;
 }
+```
 ### Command Descriptions
 The descriptions for protocols are located in commands.js.
 Example:
+```
 // -----------------------------------
 // Core Protocols
 // -----------------------------------
@@ -47,3 +49,34 @@ export const DECIDER_COMMAND = {
   description: "Decider: Immediately and unanimously move your team towards results",
   type: 1,
 };
+```
+### Functionality
+To change how the protocols work, see the apps.js file.
+
+Example:
+```
+// -----------------------------------
+// Handle modal submissions
+// -----------------------------------
+  if (type === InteractionType.APPLICATION_MODAL_SUBMIT) {
+    // custom_id of modal
+    const modalId = data.custom_id;
+    // user ID of member who filled out modal
+    const userId = req.body.member.user.id;
+
+    if (modalId === "decider_proposal") {
+      let proposal_text = "";
+       for (let action of data.components) {
+        let inputComponent = action.components[0];
+        proposal_text += `${inputComponent.value}\n`;
+      }
+      return res.send({
+        type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
+        data: {
+          content: `@here <@${userId}> has initiated a Decider. Respond with 👍 thumbs up or 👎 thumbs down.\n\n<@${userId}> proposes ${proposal_text}`,
+        },
+      });
+    }
+  }
+});
+```
