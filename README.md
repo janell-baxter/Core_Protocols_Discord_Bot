@@ -26,4 +26,41 @@ Below is a basic overview of the project structure:
 ├── README.md
 └── .gitignore
 ```
+##commands.js
+//*********************** CUSTOM CODE *************************//
 
+// -----------------------------------
+// Core Protocols
+// -----------------------------------
+export const DECIDER_COMMAND = {
+  name: "decider",
+  description: "Decider: Immediately and unanimously move your team towards results",
+  type: 1,
+};
+export const PROPOSAL_COMMAND = {
+  name: "propose",
+  description: "Decider: Immediately and unanimously move your team towards results",
+  type: 1,
+};
+
+export const CHECK_IN_COMMAND = {
+  name: "checkin",
+  description: "Check In: Disclose emotional state and confirm you are adhering to the Core Commitments.",
+  type: 1,
+};
+
+export const CHECK_OUT_COMMAND = {
+  name: "checkout",
+  description: "Check Out: Check Out when you are aware that you cannot maintain the Core Commitments.",
+  type: 1,
+};
+
+
+// -----------------------------------
+// Support
+// -----------------------------------
+export const LEARN_COMMAND = {
+  name: "learn",
+  description: "Learn tools for high performance teamwork.",
+  type: 1,
+};
