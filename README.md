@@ -27,48 +27,23 @@ Below is a basic overview of the project structure:
 └── .gitignore
 ```
 ## Core Protocols Code
-The Core Protocols functionality can be updated in the utils.js and commands.js files.
+The Core Protocols functionality can be updated in the app.js, commands.js and utils.js files.
 
-### utils.js
+### Check-In Emoji
+The emoji for Check-In can be updated in utils.js.
+
 export function getCheckinEmoji() {
   const emojiList = "😡 😭 😄 😨";
   return emojiList;
 }
-### commands.js
-//*********************** CUSTOM CODE *************************//
-
+### Command Descriptions
+The descriptions for protocols are located in commands.js.
+Example:
 // -----------------------------------
 // Core Protocols
 // -----------------------------------
 export const DECIDER_COMMAND = {
   name: "decider",
   description: "Decider: Immediately and unanimously move your team towards results",
-  type: 1,
-};
-export const PROPOSAL_COMMAND = {
-  name: "propose",
-  description: "Decider: Immediately and unanimously move your team towards results",
-  type: 1,
-};
-
-export const CHECK_IN_COMMAND = {
-  name: "checkin",
-  description: "Check In: Disclose emotional state and confirm you are adhering to the Core Commitments.",
-  type: 1,
-};
-
-export const CHECK_OUT_COMMAND = {
-  name: "checkout",
-  description: "Check Out: Check Out when you are aware that you cannot maintain the Core Commitments.",
-  type: 1,
-};
-
-
-// -----------------------------------
-// Support
-// -----------------------------------
-export const LEARN_COMMAND = {
-  name: "learn",
-  description: "Learn tools for high performance teamwork.",
   type: 1,
 };
