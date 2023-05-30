@@ -7,8 +7,8 @@
   "scripts": {
     "start": "node app.js"
   },
-  "author": "Shay DeWael",
-  "license": "MIT",
+  "author": "Original template provided by Shay DeWael, additional code by J. Baxter, core protocols by Jim and Michele McCarthy",
+  "license": "GPLv3",
   "engines": {
     "node": "16.x"
   },
@@ -23,6 +23,8 @@
   },
   "keywords": [
     "discord",
-    "node"
+    "node",
+    "Core Protocols",
+    "Greatness"
   ]
 }
