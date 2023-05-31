@@ -43,12 +43,46 @@ Below is a basic overview of the project structure:
 The Core Protocols functionality can be updated in the app.js, commands.js, and utils.js files.
 
 ### Check-In Emoji
-The emoji for Check-In can be updated in utils.js.
+The emoji for Check-In can be updated in app.js.
 ```
-export function getCheckinEmoji() {
-  const emojiList = "😡 😭 😄 😨";
-  return emojiList;
-}
+options: [
+  {
+    label: `Mad`,
+    value: `😡 mad`,
+    emoji: {
+      id: null,
+      name: `😡`,
+    },
+    default: false,
+  },
+  {
+    label: `Sad`,
+    value: `😭 sad`,
+    emoji: {
+      id: null,
+      name: `😭`,
+    },
+    default: false,
+  },
+  {
+    label: `Glad`,
+    value: `😄 glad`,
+    emoji: {
+      id: null,
+      name: `😄`,
+    },
+    default: false,
+  },
+  {
+    label: `Afraid`,
+    value: `😨 afraid`,
+    emoji: {
+      id: null,
+      name: `😨`,
+    },
+    default: false,
+  },
+],
 ```
 ### Command Descriptions
 The descriptions for protocols are located in commands.js.
@@ -63,8 +97,19 @@ export const DECIDER_COMMAND = {
   type: 1,
 };
 ```
-### Functionality
-To change how the protocols work, see the apps.js file.
+### Learn Links
+To change the sites the Learn buttons link to, edit the app.js file.
+Example:
+```
+{
+type: MessageComponentTypes.BUTTON,
+url: "https://mccarthyshow.com/the-core/",
+label: "Core Prototocols",
+style: ButtonStyleTypes.LINK,
+},
+```
+### Additional Functionality
+To change how the protocols work, see the app.js file.
 
 Example:
 ```
