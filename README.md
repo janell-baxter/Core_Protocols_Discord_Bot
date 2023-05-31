@@ -21,7 +21,8 @@ You can create your own free bot by following [Discord’s Getting Started guide
 Steps:
 1. Create a Discord app. Follow the [Discord’s Getting Started guide](https://discord.com/developers/docs/getting-started) to see how to create one.
 2. Setup hosting for the code (you can use [Glitch](https://github.com/janell-baxter/Core_Protocols_Discord_Bot/blob/main/glitch.com) for development and short-term testing for free).
-3. Connect the app to the server you want to use it in.
+3. Create a .env file for environment variables. Example variables: GUILD_ID, DISCORD_TOKEN, PUBLIC_KEY, and APP_ID.
+4. Connect the app to the server you want to use it in.
 
 # Project Information
 This project is released under the GPLv3 license. You can add additional functionality or other improvements.
@@ -31,13 +32,12 @@ This is an open source project built using the [example](https://github.com/disc
 
 Below is a basic overview of the project structure:
 ```
-├── .env -> .env file
+├── .env -> .env file (you need to create your own environment variables file)
 ├── app.js      -> main entrypoint for app
 ├── commands.js -> slash command payloads + helpers
 ├── utils.js    -> utility functions and enums
 ├── package.json
 ├── README.md
-└── .gitignore
 ```
 ## Core Protocols Code
 The Core Protocols functionality can be updated in the app.js, commands.js, and utils.js files.
