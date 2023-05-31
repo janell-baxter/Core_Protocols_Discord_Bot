@@ -38,7 +38,7 @@ export async function DiscordRequest(endpoint, options) {
   return res;
 }
 
-// Simple method that returns a random emoji from list
+// Returns a random emoji from list
 export function getRandomEmoji() {
   const emojiList = ['😭','😄','😌','🤓','😎','😤','🤖','😶‍🌫️','🌏','📸','💿','👋','🌊','✨'];
   return emojiList[Math.floor(Math.random() * emojiList.length)];
@@ -47,7 +47,7 @@ export function getRandomEmoji() {
 export function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
-
+//Returns the emoji for /checkin
 export function getCheckinEmoji() {
   const emojiList = "😡 😭 😄 😨";
   return emojiList;
