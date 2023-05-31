@@ -25,6 +25,7 @@ export async function InstallGuildCommand(appId, guildId, command) {
 // -----------------------------------
 // Core Protocols
 // -----------------------------------
+
 export const DECIDER_COMMAND = {
   name: "decider",
   description: "Decider: Immediately and unanimously move your team towards results",
@@ -50,8 +51,9 @@ export const CHECK_OUT_COMMAND = {
 
 
 // -----------------------------------
-// Support
+// Support (links to learn more)
 // -----------------------------------
+
 export const LEARN_COMMAND = {
   name: "learn",
   description: "Learn tools for high performance teamwork.",
