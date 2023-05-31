@@ -46,6 +46,7 @@ const { type, id, data } = req.body;
 // -----------------------------------
 // Handle verification requests
 // -----------------------------------
+  
 if (type === InteractionType.PING) {
   return res.send({ type: InteractionResponseType.PONG });
 }
