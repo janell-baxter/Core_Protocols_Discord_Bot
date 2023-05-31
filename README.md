@@ -1,29 +1,35 @@
 # Core Protocols Discord Bot
 Structured use of the [Core Protocols](https://mccarthyshow.com/the-core/) in Discord.
 
-## Why
-The Core is a set of best practices culled from over 25 years of research from [Jim](https://twitter.com/mccarthyjim1) and [Michele](https://twitter.com/michmccarthy) McCarthy and the teams they have worked with. It includes commitments that are an agreement from the team to create a high functioning environment, and to accept the responsibility to maintain it. A set of Core Protocols help the team better understand and support the Core Commitments.
+## Why The Core Protocols?
+The Core is a set of best practices from over 25 years of research from [Jim](https://twitter.com/mccarthyjim1) and [Michele](https://twitter.com/michmccarthy) McCarthy and the teams they have worked with. It includes Core Commitments for the team to create a high functioning environment, and a set of Core Protocols to help the team better understand and support those commitments.
 
 Communication and collaboration are improved when team members have a shared understanding of terms and responsibilities; people know what's expected of them. For example, using The Core, everyone understands that when someone **Checks In** that they are agreeing to a [set of commitments](https://greatness.rocks/the-core/) for high-functioning team work.
 
-To use the Core Protocols, read the book [Software For Your Head](https://liveingreatness.com/software-for-your-head-book/). It's online, free, and covers the protocols in depth.
+To learn more about The Core read the book [Software For Your Head](https://liveingreatness.com/software-for-your-head-book/). It's online, free, and covers the protocols in depth.
 
 Additionally, you may want to:
 * [Attend a Bootcamp](https://mccarthyshow.com/boot-camp/)
 * [Listen to the Podcasts](https://mccarthyshow.com/category/podcasts/page/14/)
 
-## How
+## How to Use
+There are four slash commands available: learn, checkin, checkout, and propose. See screenshots and information about the commands at [greatness.rocks/core-protocols-discord-bot](https://greatness.rocks/core-protocols-discord-bot).
 
-# Project 
+### Set Up Your Bot
+You can create your own free bot by following [Discord’s Getting Started guide](https://discord.com/developers/docs/getting-started). If you don’t have a server, you can use [Glitch](https://github.com/janell-baxter/Core_Protocols_Discord_Bot/blob/main/glitch.com) for development and short-term testing. Use the bot as is, or change The Core Protocols functionality in the app.js, commands.js, and utils.js files. You can set your own name and avatar for the bot, too.
 
-## Discord Bot Creation
-You can create your own bot by following [Discord's Getting Started guide](https://discord.com/developers/docs/getting-started). If you don't have a server, you can use [Glitch](glitch.com) for development and short-term testing. 
+Steps:
+1. Create a Discord app. Follow the [Discord’s Getting Started guide](https://discord.com/developers/docs/getting-started) to see how to create one.
+2. Setup hosting for the code (you can use [Glitch](https://github.com/janell-baxter/Core_Protocols_Discord_Bot/blob/main/glitch.com) for development and short-term testing for free).
+3. Connect the app to the server you want to use it in.
 
-## Project structure
+# Project Information
+This project is released under the GPLv3 license. You can add additional functionality or other improvements.
+
+## Structure
 This is an open source project built using the [example](https://github.com/discord/discord-example-app) provided by [Shay DeWael](https://github.com/shaydewael) as a starting point.
 
 Below is a basic overview of the project structure:
-
 ```
 ├── .env -> .env file
 ├── app.js      -> main entrypoint for app
